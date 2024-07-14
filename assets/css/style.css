@@ -25,6 +25,7 @@ header {
   height: 60px;
   margin: -10px;
   vertical-align: baseline;
+  z-index: 1;
 }
 .header-location {
   display: flex;
@@ -195,4 +196,23 @@ h5 {
   margin-top: -10px;
   font-size: 12px;
   text-align: center;
+}
+.around-the-world {
+  display: flex;
+  margin-top: 40px;
+  background-color: #f1f4f8;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.hourly-weather {
+  display: flex;
+  padding: 0px;
+  border-top: 1px solid #b7c1cc;
+}
+.prev-next-button {
+  padding-top: 15%;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 6%;
+  background-color: #b7c1cc;
 }
